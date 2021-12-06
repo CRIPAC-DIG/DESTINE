@@ -10,6 +10,7 @@ BASE_MODEL='DSelfAttnWgt'
 NUM_LAYERS=5
 EMBED_DIM=32
 MAGIC='False'
+DEEP='False'  # Set to `True` for the deep model
 DEVICE='cuda'
 
 python main.py \
@@ -24,4 +25,5 @@ python main.py \
   --num_layers $NUM_LAYERS \
   --embed_dim $EMBED_DIM \
   --magic $MAGIC \
+  --deep $DEEP \
   --device $DEVICE
