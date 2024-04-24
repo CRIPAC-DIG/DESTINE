@@ -1,16 +1,8 @@
 # DESTINE
-[CIKM 2021] Implementations for Disentangled Self-Attentive Neural Networks for Click-Through Rate Prediction
 
-## Requirements
+<img src="destine.png" alt="model" style="zoom: 50%;" />
 
-The following Python libraries should be installed:
-
-- pretty_errors
-- torch
-- sklearn
-- torchfm
-- PyYAML
-- nni
+This is the code for the CIKM 2021 Paper: [Disentangled Self-Attentive Neural Networks for Click-Through Rate Prediction](https://dl.acm.org/doi/abs/10.1145/3459637.3482088).
 
 ## Usage
 
@@ -19,7 +11,28 @@ where `$ROOT_DIR` is the directory of this Git project on your machine.
 
 The experiments on Criteo and Avazu can be run via executing `bash run_criteo.sh` and `bash run_avazu.sh`.
 
+## Requirements
+
+- pretty_errors
+- torch
+- sklearn
+- torchfm
+- PyYAML
+- nni
+
 ## Citation
+
+Please cite our paper if you use the code:
+
+```
+@inproceedings{xu2021disentangled,
+  title={Disentangled self-attentive neural networks for click-through rate prediction},
+  author={Xu, Yichen and Zhu, Yanqiao and Yu, Feng and Liu, Qiang and Wu, Shu},
+  booktitle={Proceedings of the 30th ACM international conference on information \& knowledge management},
+  pages={3553--3557},
+  year={2021}
+}
+```
 
 ```bibtex
 @inproceedings{Xu:2021uz,
